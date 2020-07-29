@@ -1,0 +1,80 @@
+body{
+    background: url(images/tree14.jpg) center center fixed;
+    background-size: cover;
+    color:#000;
+    font-family: Vollkorn;
+}
+
+/*Title*/
+#header{
+  text-align: center;
+    font-size: 7vw;
+}
+
+/*Lap*/
+#lap{
+    text-align: right;
+    font-size: 4vw; 
+    color: #EE4C31;
+    font-family: Black Ops One;
+}
+#lap p{
+    color: #000;
+    font-size: relative;
+    border-bottom: 1px solid Black;
+    font-family: Vollkorn;
+    
+}
+
+/*Time*/
+#time{
+    text-align: center;
+    font-family: Charcoal;
+    font-size: 10vw; 
+    color: #3DCE49;
+    font-family:Black Ops One;
+}
+
+/*Buttons*/
+#controlsContainer{
+    margin-bottom: 100px;
+}
+.control{
+   color:white;
+    height: 10vw;
+    width: 10vw;
+    background-color: rgba( 224, 137, 30, 0.5 );
+    border-radius: 100%;
+    text-align: center;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+.control:active{
+    background-color: #fff;
+    color: #D7A04E; 
+}
+
+/*Laps*/
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+    /*color: #1B5B61;*/
+     color: #fff;
+    
+}
+
+/*styling lap details*/
+.lap{
+ height: 60px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+.laptime{
+    font-size: 2em;
+    float: right;   
+}

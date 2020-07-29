@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compitable" content="IE=dge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+
+<title>Stopwatch App</title>
+   
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet"> 
+    
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">   
+</head>
+<body>   
+    <!---Title--->
+<div class="container-fluid">
+    <div id="header">Stopwatch</div>    
+
+    
+    <!---Lap Time--->
+    <div id="lap">
+    <p>Current Lap</p>
+    <span id="lapminute">00</span>:
+    <span id="lapsecond">00</span>:
+    <span id="lapcentisecond">00</span>
+    </div>
+    
+    <!---Time--->
+    <div id="time">
+    <span id="timeminute">00</span>:
+    <span id="timesecond">00</span>:
+    <span id="timecentisecond">00</span>
+    </div>
+    
+    <!---Controls--->
+    <div id="controlsContainer" class="row">
+        <div class="col-xs-2 col-xs-offset-4">
+            <div id="startButton" class="control">
+            Start
+            </div>
+              <div id="stopButton" class="control">
+            Stop
+            </div>
+            <div id="resumeButton" class="control">
+            Resume
+            </div>
+        </div>
+         <div class="col-xs-2">
+            <div id="lapButton" class="control">
+            Lap
+            </div>
+              <div id="resetButton" class="control">
+            Reset
+            </div>
+        </div>
+    
+    </div >
+    
+    <!--Laps---->
+  
+    <div id="laps">
+    
+    </div>
+   
+    
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="stopwatch.js"></script> 
+    
+</body>
+</html>
